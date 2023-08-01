@@ -1,7 +1,7 @@
 package tests;
 
 import static org.junit.Assert.*;
-
+import app.Calculator;
 import org.junit.Test;
 
 public class calculatorTest {
