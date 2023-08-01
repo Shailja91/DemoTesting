@@ -9,7 +9,7 @@ public class calculatorTest {
 	@Test
 	public void testAdd() {
 		int exp = 30;
-		calculatorTest cal = new calculatorTest();
+		Calculator cal = new Calculator();
 		int act = cal.add(10, 20);
 		assertEquals(exp, act);
 		}
